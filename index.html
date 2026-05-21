@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My E-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header-container">
+    <img src="profile1.jpg" alt="Profile Photo" class="header-profile">
+    <div class="header-text">
+        <h1>Kaveri Sanjay Tope</h1>
+        <p>E-Portfolio</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#academic">Academics</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#videos">Videos</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a dedicated and motivated <strong>B.Ed student</strong> with a strong academic background
+        in SSC, HSC, B.Sc, and M.Sc. I have a deep interest in the field of education and a genuine
+        passion for teaching and learning.
+    </p>
+
+    <p>
+        Throughout my academic journey, I have developed essential skills such as effective
+        communication, classroom management, lesson planning, and the ability to understand
+        diverse learning needs of students. I believe that education plays a vital role in shaping
+        responsible and knowledgeable individuals.
+    </p>
+
+    <p>
+        As a future educator, my goal is to create a positive, inclusive, and engaging learning
+        environment where students feel encouraged to ask questions, think critically, and grow
+        both academically and personally. I aim to continuously improve my teaching practices by
+        adopting innovative methods and educational technologies.
+    </p>
+
+    <p>
+        This e-portfolio represents my academic journey, skills, achievements, and commitment
+        towards becoming a competent and responsible teacher in the future.
+    </p>
+</section>
+
+
+<section id="academic">
+    <h2>Academic Qualifications</h2>
+
+    <div class="edu-grid">
+
+        <div class="edu-card">
+            <img src="marksheets/ssc.jpg" alt="SSC Marksheet">
+            <div class="edu-info">
+                <h3>SSC</h3>
+                <p>MVP School, Pimplad</p>
+                <p>SSC | 2017 | 88.80%</p>
+            </div>
+        </div>
+
+        <div class="edu-card">
+            <img src="marksheets/hsc.jpg" alt="HSC Marksheet">
+            <div class="edu-info">
+                <h3>HSC</h3>
+                <p>NVP Mandal, Lasalgoan</p>
+                <p>Science | HSC | 2019 | 57.38%</p>
+            </div>
+        </div>
+
+        <div class="edu-card">
+            <img src="marksheets/bsc.jpg" alt="BSC Marksheet">
+            <div class="edu-info">
+                <h3>BSC</h3>
+                <p>SNJB College, Chandwad</p>
+                <p>Physics Specialization | 2022</p>
+            </div>
+        </div>
+
+        <div class="edu-card">
+            <img src="marksheets/msc.jpg" alt="MSC Marksheet">
+            <div class="edu-info">
+                <h3>MSC</h3>
+                <p>SNJB College, Chandwad</p>
+                <p>Physics | 2024</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="submissions">
+    <h2>Written Submissions File</h2>
+
+    <div class="pdf-grid">
+
+        <button onclick="previewPdf('Submission 1','pdfs/submission1.pdf')" class="pdf-btn">Submission 1</button>
+        <button onclick="previewPdf('Submission 2','pdfs/submission2.pdf')" class="pdf-btn">Submission 2</button>
+        <button onclick="previewPdf('Submission 3','pdfs/submission3.pdf')" class="pdf-btn">Submission 3</button>
+        <button onclick="previewPdf('Submission 4','pdfs/submission4.pdf')" class="pdf-btn">Submission 4</button>
+        <button onclick="previewPdf('Submission 5','pdfs/submission5.pdf')" class="pdf-btn">Submission 5</button>
+
+        <!-- Submission 6 -->
+        <div class="pdf-group">
+            <span>Submission 6</span>
+            <button onclick="previewPdf('106 A','pdfs/submission6_a.pdf')">106 A</button>
+            <button onclick="previewPdf('106 B','pdfs/submission6_b.pdf')">106 B</button>
+        </div>
+
+        <!-- Submission 7 -->
+        <div class="pdf-group">
+            <span>Submission 7</span>
+            <button onclick="previewPdf('107 A1','pdfs/submission7_a.pdf')">107 A1</button>
+            <button onclick="previewPdf('107 A2','pdfs/submission7_b.pdf')">107 A2</button>
+            <button onclick="previewPdf('107 B1','pdfs/submission7_c.pdf')">107 B1</button>
+        </div>
+
+        <button onclick="previewPdf('Submission 8','pdfs/submission8.pdf')" class="pdf-btn">Submission 8</button>
+
+    </div>
+</section>
+
+
+<section id="videos">
+    <h2>Teaching & Introduction Videos</h2>
+
+    <div class="video-grid">
+        <video controls>
+            <source src="videos/video1.mp4" type="video/mp4">
+        </video>
+
+        <video controls>
+            <source src="videos/video2.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills & Achievements</h2>
+    <ul>
+        <li>Communication Skills</li>
+        <li>Team Work</li>
+        <li>Basic Computer Knowledge</li>
+        <li>Certified Workshops / Courses</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>
+        <strong>Project Title:</strong> Description of your project, tools used, and learning outcome.
+    </p>
+</section>
+
+<section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+        <li><a href="./marksheets/ssc.jpg" target="_blank">SSC Certificate</a></li>
+        <li><a href="./marksheets/hsc.jpg" target="_blank">HSC Certificate</a></li>
+        <li><a href="./marksheets/msc.jpg" target="_blank">MSC Certificate</a></li>
+    </ul>
+    
+</section>
+
+<section id="videos">
+    <h2>Videos About Me</h2>
+    <video controls width="300">
+        <source src="about_me.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+</section>
+
+<section id="contact">
+    <h2>Contact Details</h2>
+    <p>Email: kaveritope222@email.com</p>
+    <p>Phone: +91 XXXXXXXX</p>
+</section>
+
+<footer>
+    <p>© 2026 Kaveri Tope</p>
+</footer>
+<!-- PDF Preview Modal -->
+<div id="pdfModal" class="pdf-modal">
+    <div class="pdf-modal-content">
+        <span class="close-btn" onclick="closePdf()">×</span>
+        <h3 id="pdfTitle"></h3>
+        <iframe id="pdfFrame"></iframe>
+        <a id="openPdfBtn" target="_blank" class="open-btn">Open Full PDF</a>
+    </div>
+</div>
+<script>
+function previewPdf(title, file) {
+    document.getElementById("pdfModal").style.display = "block";
+    document.getElementById("pdfTitle").innerText = title;
+    document.getElementById("pdfFrame").src = file;
+    document.getElementById("openPdfBtn").href = file;
+}
+
+function closePdf() {
+    document.getElementById("pdfModal").style.display = "none";
+    document.getElementById("pdfFrame").src = "";
+}
+</script>
+</body>
+</html>
+
